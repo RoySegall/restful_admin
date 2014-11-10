@@ -1,12 +1,17 @@
 restful_admin
 =============
 
-Restful admin is a basic idea that will help you manage through a single controll panel. Each Drupal installation
+Restful admin is a basic idea that will help you manage Drupal sites through a single controll panel with cool UI using a cool boostrap dashaboad and will be packes into a Drupal distirbution. Each Drupal installation
 will have a restful plugin. The restful plugin will write the restul admin dashboard as an authorized entity to 
-invoke actions. Action such as:
+invoke actions using oAuth. Action such as:
 * Manage entitites
 * Get the watchdog records
 * Log in as a specific user
+* API status of your site
+* Get information of google analytics
+* Set reminders for other users in the dashboard
+* View github issues for your Drupal projects
+* Get a cool app with push notifications
 
 Each user in the dashboard will have permission that he can act upon each installation:
 On one site user can delete user but in another he can only edit comments.
